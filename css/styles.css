@@ -1,0 +1,96 @@
+* {margin: 0; padding:0; border:none;}
+
+body {
+    font-family:"Nunito Sans";
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: "Raleway";
+    font-weight: 300;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+h2{
+    font-size: 250%;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header {
+    background-image: url(../img/headerimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    line-height:1rem;
+    text-align: center;
+}
+
+header p {
+    font-style: italic;
+    padding-top: 1rem;
+}
+
+
+.photos {
+    background-color:lightslategray;
+    background-size: cover;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: white
+}
+.photos dt {
+    font-weight:bold;
+}
+.photos dd {
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+   }
+
+.photos dd img{
+    width: 300px;
+}
+
+.mytrip {
+    background-color: lightcyan;
+    background-size: cover;
+    line-height: 1.5rem;  
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;  
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #008080;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+ }
+
+footer a:hover {
+    color:deeppink;
+}
